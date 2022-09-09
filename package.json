@@ -1,0 +1,23 @@
+{
+  "private": true,
+  "name": "atom-ui",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "pnpm -C play dev",
+    "doc:dev": "pnpm -C site dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@atom/components": "workspace:*",
+    "@atom/utils": "workspace:*",
+    "vue": "^3.2.38"
+  },
+  "devDependencies": {
+    "unplugin-vue-components": "^0.22.4",
+    "unplugin-vue-define-options": "^0.11.2"
+  }
+}

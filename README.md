@@ -1,2 +1,3 @@
-# atom
-a nice UI component for vue3
+<h1 align="center">
+  Atom UI
+</h1>
